@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">SMSCategory</string>
+
+    <string name="channel_message">Message Channel</string>
+    <string name="channel_message_name">Message Update</string>
+</resources>

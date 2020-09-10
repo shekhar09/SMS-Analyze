@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/layout_message">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9876543210"
+            android:textSize="17sp"
+            android:padding="2dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gotham_medium"
+            android:id="@+id/tv_address" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:text="1 min"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gotham_light"
+            android:textSize="12sp"
+            android:padding="2dp"
+            android:id="@+id/tv_time" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Demo Message"
+            android:textSize="14sp"
+            android:padding="2dp"
+            android:layout_marginTop="2dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/gotham_medium"
+            android:layout_below="@+id/tv_address"
+            android:id="@+id/tv_message"
+            />
+
+    </RelativeLayout>
+
+
+
+
+    <View
+        android:id="@+id/view_2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/grey" />
+
+
+
+
+
+
+</LinearLayout>
